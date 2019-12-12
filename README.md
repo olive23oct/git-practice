@@ -19,3 +19,17 @@
 
 #### 협업
 - 협업할 멤버 collaborators 추가하기
+- 실수한 커밋은 reset으로 삭제할 수 있지만 revert로 지우는 기록을 추가하자
+- git reset [option][branch]
+- git revert [branch] 
+#### log
+- git log
+- git log --all --decorate --graph --oneline
+- git config --global alias.showlog "git log --all --decorate --graph --oneline"
+- git log --pretty=format:"%h %s" --graph
+
+#### fetch 가져오기
+- 원격 저장소와 동기화 
+
+#### pull 
+- 원격 저장소와 동기화하고 merge
