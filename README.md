@@ -1,5 +1,13 @@
 # git practice
-
+#### remove
+```
+// 원격 저장소의 파일 모두 삭제
+git rm --cached -r .
+// 원격 저장소의 파일 삭제
+git rm --cached [File Name]
+// 원격 저장소와 로컬 저장소에 있는 파일 삭제
+git rm [File Name]
+```
 #### clone
 - 마지막 number 개의 커밋만 포함하여 저장소 복제하기
 ```
@@ -45,3 +53,8 @@ git revert [branch]
 
 #### pull 
 - 원격 저장소와 동기화하고 merge
+
+#### contribute
+- 원격 저장소 fork
+- clone 하여 자신의 로컬에서 관리
+- pull request을 통해 기여
